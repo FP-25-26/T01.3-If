@@ -1,6 +1,6 @@
 # T01.3-If
 
-En un módulo funciones.py implementa las siguientes funciones para practicar con la sentencia de control selectiva if. 
+En un módulo funciones.py implementa las siguientes funciones para practicar con la sentencia de control selectiva if y expresiones. Pruebe las funciones en el módulo `funciones_test`.
 
 ## Ejercicio 1
 Implementa una función que, dados el peso y la estatura de una persona, devuelva su **estado nutricional**, según la clasificación de la **OMS** (ver  Fuente: https://es.wikipedia.org/wiki/%C3%8Dndice_de_masa_corporal)
@@ -14,7 +14,7 @@ Implementa una función que, dados el peso y la estatura de una persona, devuelv
 | [25 , 30)                          | Sobrepeso          |
 | Superior o igual a 30              | Obesidad           |
 
-Ejecute las siguientes pruebas en el módulo `funciones_test`.
+
 
 ---
 
