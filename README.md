@@ -48,7 +48,7 @@ El gobierno ha lanzado un *programa de Bono Cultural para Jóvenes* con el objet
 4. Si los ingresos familiares son mayores a 50,000 €, el bono se reduce en *5 €*.
 5. El bono nunca puede ser negativo.
 
-El escribva una función en Python que, dada la edad, si es estudiante y los ingresos familiares, determine el monto del bono cultural, si la persona no es eligible (no es joven) el monto del bono debe ser *5 €*.
+El escriba una función en Python que, dada la edad, si es estudiante y los ingresos familiares, determine el monto del bono cultural, si la persona no es eligible (no es joven) el monto del bono debe ser *5 €*.
 
 
 📌 **Descomposición en funciones**
