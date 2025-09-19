@@ -35,3 +35,35 @@ Implementa una función llamada categoria_huracan, que dada la velocidad del vie
 | 5         | Superior a 248            |
 
 ---
+## Ejercicio 4
+
+El gobierno ha lanzado un *programa de Bono Cultural para Jóvenes* con el objetivo de incentivar la participación en actividades artísticas y culturales. Las reglas del programa son las siguientes:
+
+1. Solo pueden acceder jóvenes de entre *12 y 30 años*.
+2. El bono base depende de la edad:
+      - Entre 12 y 17 años → 20 €
+      - Entre 18 y 25 años → 40 €
+      - Entre 26 y 30 años → 30 €
+3. Si el joven es *estudiante y su familia gana menos de 20,000 € al año*, recibe un extra de *10 €*.
+4. Si los ingresos familiares son mayores a 50,000 €, el bono se reduce en *5 €*.
+5. El bono nunca puede ser negativo.
+
+El escribva una función en Python que, dada la edad, si es estudiante y los ingresos familiares, determine el monto del bono cultural, si la persona no es eligible (no es joven) el monto del bono debe ser *5 €*.
+
+
+📌 **Descomposición en funciones**
+
+Para resolver este problema de froma más clara y ordenada, es aconsejable dividir el programa en subproblemas, y crear funciones específicas para resolver cada uno de los subproblemas. Una descomposición en funciones puede ser la siguiente:
+
+- Función `es_elegible` que, dada la edad de una persona, verifica si la edad está dentro del rango permitido (12 a 30 años). Devuelve, por tanto, un valor lógico (`True` o `False`).
+- Función `bono_base` que, dada la edad de una persona, determina el monto inicial del bono según el rango de edad.
+- Función `ajuste_bono' que, dados el bono base, si la persona es estudiante y los ingresos familiares, devuelve la cuantía del bono tras aplicarle modificaciones correspondientes, teniendo en cuenta si es estudiante y el nivel de ingresos familiares.
+  Usa la función nativa `max` para garantizar que el bono no sea negativo.
+- Función `bono_cultural` que, dados la edad, si la persona es estudiante y los ingresos familiares, devuelve la cuantía del bono. Esta función es la función principal para resolver este problema, y se va a encargar de coordinar el resto de funciones.
+  Primero llama a `es_elegible` para verificar si puede acceder al bono, luego obtiene el monto base con `bono_base`. Finalmente ajusta el valor con `ajuste_bono`.
+
+👉 Esta descomposición en funciones hace que el código sea más:
+
+  - **Modular** → cada parte del problema está aislada en su propia función.
+  - **Reutilizable** → se pueden usar las funciones de manera independiente.
+  - **Legible** → el programa se entiende paso a paso.
