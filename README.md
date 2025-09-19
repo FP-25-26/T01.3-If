@@ -57,7 +57,7 @@ Para resolver este problema de froma más clara y ordenada, es aconsejable divid
 
 - Función `es_elegible` que, dada la edad de una persona, verifica si la edad está dentro del rango permitido (12 a 30 años). Devuelve, por tanto, un valor lógico (`True` o `False`).
 - Función `bono_base` que, dada la edad de una persona, determina el monto inicial del bono según el rango de edad.
-- Función `ajuste_bono' que, dados el bono base, si la persona es estudiante y los ingresos familiares, devuelve la cuantía del bono tras aplicarle modificaciones correspondientes, teniendo en cuenta si es estudiante y el nivel de ingresos familiares.
+- Función `ajuste_bono` que, dados el bono base, si la persona es estudiante y los ingresos familiares, devuelve la cuantía del bono tras aplicarle modificaciones correspondientes, teniendo en cuenta si es estudiante y el nivel de ingresos familiares.
   Usa la función nativa `max` para garantizar que el bono no sea negativo.
 - Función `bono_cultural` que, dados la edad, si la persona es estudiante y los ingresos familiares, devuelve la cuantía del bono. Esta función es la función principal para resolver este problema, y se va a encargar de coordinar el resto de funciones.
   Primero llama a `es_elegible` para verificar si puede acceder al bono, luego obtiene el monto base con `bono_base`. Finalmente ajusta el valor con `ajuste_bono`.
