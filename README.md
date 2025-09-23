@@ -3,9 +3,7 @@
 En un módulo funciones.py implementa las siguientes funciones para practicar con la sentencia de control selectiva if y expresiones. Prueba las funciones en el módulo `funciones_test`.
 
 ## Ejercicio 1
-Implementa una función que, dados el peso y la estatura de una persona, devuelva su **estado nutricional**, según la clasificación de la **OMS** (ver  Fuente: https://es.wikipedia.org/wiki/%C3%8Dndice_de_masa_corporal)
-.Implementa una función llamada categoria_huracan, que dada la velocidad del viento, indique la categoría del huracán. Trata la velocidad del viento como un entero. Testea esta función.
-<img width="4485" height="123" alt="image" src="https://github.com/user-attachments/assets/cad40c55-6880-4bc5-8059-724f3a7332eb" />
+Implementa una función que, dados el peso y la estatura de una persona, devuelva su **estado nutricional**, según la clasificación de la **OMS** (ver  Fuente: https://es.wikipedia.org/wiki/%C3%8Dndice_de_masa_corporal).
 
 | IMC                                | Estado nutricional |
 | ---------------------------------- | ------------------ |
